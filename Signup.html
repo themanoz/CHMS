@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,intial-scale=1.0">
+        <title>Sign up</title>
+        <!-- <meta http-equiv="refresh" content="5"> -->
+        <link rel= "stylesheet" href="https://fonts.googleapis.com/css?family=Alata&display=swap">
+        <link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=Baloo+Da+2&display=swap">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+      <form>
+        <div class="sidetitle">
+            <span class="chms">CHMS</span>
+        </div>
+    <div class="container">
+        <h1 class="title">Create new account<span id="full">.</span></h1>
+        <div class="container1">
+            <span class="member">
+                <h5 id="mem">Already a member?</h5>
+            </span>
+            <span  class="login">
+                <h5>Login</h5>
+            </span>
+        </div>
+         <!-- First name -->        
+    <div class="fname">
+        <span class="name">
+            <input type="text" id="fname" placeholder="First name">        
+        </span>
+    </div>
+    <!-- Last name -->        
+    <div class="lname">
+        <span class="name">
+        <input type="text" id="lname" placeholder="Last name">        
+        </span>
+    </div>
+
+    <!-- Dropdown -->
+    <div class="drop">
+        <label for="categories"></label>
+        <select class="dropdown" id="dropdown">
+                <!-- <option value="Select" selected>Select</option> -->
+                <div class="pop">
+                <option value="Student">Student</option>
+                <option value="Faculty">Teaching</option>
+                <option value="Non">Non-teaching</option>
+            </div>
+        </select>
+    </div>
+     <!-- Mobile Number -->
+     <div class="number">
+        <span class="numb">
+        <input type="number" id="num" placeholder="Mobile Number" required>        
+        </span>
+    </div>
+    <!-- Input for email -->        
+    <div class="mailbox">
+        <span class="it">
+        <input type="email" id="mail" placeholder="Enter your mail id" required>        
+        </span>
+    </div>
+    <!-- Password Input -->
+    <div class="passinput">
+        <span class="pass">
+        <input type="password" id="password" placeholder="Enter password" required>        
+        </span>
+    </div>
+     <!-- Confirm Password  -->
+     <div class="confirm">
+        <span class="con">
+        <input type="password" id="confirmpass" placeholder="Re-enter password" required>        
+        </span>
+    </div>
+    <!-- Next Button -->
+    <div class="next">
+        <span class="nxt">
+        <button type="submit" id="button">Next</button>        
+        </span>
+    </div>
+  </div>
+    </form>
+    <div class="vector">
+       <img src="signup.svg" alt="signup">
+    </div>
+    </body>
+</html>
